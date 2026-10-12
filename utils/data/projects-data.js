@@ -4,7 +4,7 @@ export const projectsData = [
         title: "LLM As A Jury Prototype",
         duration: " February 2026",
         facilitator: "Personal Project/ Liberty IT",
-        notes: "This is a prototype that I developed to demonstrate the capabilities of LLM As A Jury framework. The prototype allows users to input information and have an LLM act as a reviewer, providing a verdict based on the information provided. I initially created a courtroom scenario with a guilty/ innocent verdict, and later expanded it to inlcude text and code review. This project was originally developed individually while I was employed at Liberty IT. The version available on my GitHub is a modified version that I developed to demonstrate the capabilities of the framework. At it's highest capability, I programmed this prototype to be able to correct the code it reviewed."
+        notes: "This is a prototype that I developed to demonstrate the capabilities of LLM As A Jury framework. The prototype allows users to input information and have an LLM act as a reviewer, providing a verdict based on the information provided. I initially created a courtroom scenario with a guilty/ innocent verdict, and later expanded it to include text and code review. This project was originally developed individually while I was employed at Liberty IT. The version available on my GitHub is a modified version that I developed to demonstrate the capabilities of the framework. At it's highest capability, I programmed this prototype to be able to correct the code it reviewed."
     },
     {
         id: 2,
