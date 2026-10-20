@@ -23,12 +23,12 @@
   --alpha: 0;
   content: "";
   background: conic-gradient(from 180deg at 50% 70%,
-      #f626af 0deg,
-      #8228ec 72.0000010728836deg,
-      #f626af 144.0000021457672deg,
-      #0025ba 216.00000858306885deg,
-      #f626af 288.0000042915344deg,
-      #fafafa 1turn);
+      #e7b6ae 0deg,
+      #c78172 72.0000010728836deg,
+      #e7b6ae 144.0000021457672deg,
+      #8d5d50 216.00000858306885deg,
+      #e7b6ae 288.0000042915344deg,
+      #f8f3ee 1turn);
   background-attachment: fixed;
   position: absolute;
   inset: -5px;
@@ -52,7 +52,7 @@
   content: "";
   border-radius: 12px;
   pointer-events: none;
-  background: #84738c;
+  background: #d8a99b;
   background-attachment: fixed;
   border-radius: 12px;
   mask: linear-gradient(#0000, #0000),
@@ -72,12 +72,12 @@
   pointer-events: none;
   position: absolute;
   background: conic-gradient(from 180deg at 50% 70%,
-      #f626af 0deg,
-      #8228ec 72.0000010728836deg,
-      #f626af 144.0000021457672deg,
-      #0025ba 216.00000858306885deg,
-      #f626af 288.0000042915344deg,
-      #fafafa 1turn);
+      #e7b6ae 0deg,
+      #c78172 72.0000010728836deg,
+      #e7b6ae 144.0000021457672deg,
+      #8d5d50 216.00000858306885deg,
+      #e7b6ae 288.0000042915344deg,
+      #f8f3ee 1turn);
   background-attachment: fixed;
   border-radius: 12px;
   opacity: var(--active, 0);

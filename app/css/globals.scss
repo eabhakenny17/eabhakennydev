@@ -1,18 +1,17 @@
 @use "tailwindcss";
 
 :root {
-  --foreground-rgb: rgb(211, 216, 232);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-  }
+  --foreground-rgb: 248, 243, 238;
+  --ivory: #f8f3ee;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #2c0735;
+  background-color: #302724;
+}
+
+body .text-white {
+  color: var(--ivory) !important;
 }
 
 #sticky-card-1 {

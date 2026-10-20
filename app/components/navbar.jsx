@@ -13,14 +13,14 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-xl font-bold">
+            className=" text-[#e7b6ae] text-xl font-bold">
             Éabha Kenny
           </Link>
         </div> 
 
         <button
           type="button"
-          className="rounded-md p-2 text-white hover:text-pink-600 focus:outline-none focus:ring-2 focus:ring-violet-500 md:hidden"
+          className="rounded-md p-2 text-[#f8f3ee] hover:text-[#e7b6ae] focus:outline-none focus:ring-2 focus:ring-[#c78172] md:hidden"
           aria-controls="navbar-menu"
           aria-expanded={isMenuOpen}
           aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
@@ -37,20 +37,20 @@ function Navbar() {
         >
           <li>
             <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#about">
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">ABOUT</div>
+              <div className="text-sm text-[#f8f3ee] transition-colors duration-300 hover:text-[#e7b6ae]">ABOUT</div>
             </Link>
           </li>
           <li>
-            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#technical-experience"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">TECHNICAL EXPERIENCE</div></Link>
+            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#technical-experience"><div className="text-sm text-[#f8f3ee] transition-colors duration-300 hover:text-[#e7b6ae]">TECHNICAL EXPERIENCE</div></Link>
           </li>
           <li>
-            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#nontechexperience"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">NON-TECHNICAL EXPERIENCE</div></Link>
+            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#nontechexperience"><div className="text-sm text-[#f8f3ee] transition-colors duration-300 hover:text-[#e7b6ae]">NON-TECHNICAL EXPERIENCE</div></Link>
           </li>
           <li>
-            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div></Link>
+            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills"><div className="text-sm text-[#f8f3ee] transition-colors duration-300 hover:text-[#e7b6ae]">SKILLS</div></Link>
           </li>
           <li>
-            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></Link>
+            <Link onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-[#f8f3ee] transition-colors duration-300 hover:text-[#e7b6ae]">PROJECTS</div></Link>
           </li>
         </ul>
       </div>

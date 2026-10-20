@@ -2,13 +2,13 @@
 import { technicalExperiences } from "@/utils/data/technical-experiences";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import lottieFile from '../../../assets/lottie/study.json';
+import lottieFile from '../../../assets/lottie/pink_laptop_anim.json';
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
 function TechnicalExperience() {
   return (
-    <div id="technical-experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="technical-experience" className="relative z-50 border-t my-12 lg:my-24 border-[#5f403d]">
       <Image
         src="/section.svg"
         alt="Hero"
@@ -19,17 +19,17 @@ function TechnicalExperience() {
       />
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
-          <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
+          <div className="h-[1px] bg-gradient-to-r from-transparent via-[#d99a94] to-transparent  w-full" />
         </div>
       </div>
 
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+          <span className="w-24 h-[2px] bg-[#5f403d]"></span>
+          <span className="bg-[#5f403d] w-fit text-[#f8f3ee] p-2 px-5 text-xl rounded-md">
             Technical Experience
           </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-[2px] bg-[#5f403d]"></span>
         </div>
       </div>
 
@@ -56,12 +56,12 @@ function TechnicalExperience() {
                           className="absolute bottom-0 opacity-80"
                         />
                         <div className="flex justify-center">
-                          <p className="text-xs sm:text-sm text-[#16f2b3]">
+                          <p className="text-xs sm:text-sm text-[#e7b6ae]">
                             {experience.duration}
                           </p>
                         </div>
                         <div className="flex items-center gap-x-8 px-3 py-5">
-                          <div className="text-violet-500 transition-all duration-300 group-hover:scale-125">
+                          <div className="text-[#c78172] transition-all duration-300 group-hover:scale-125">
                             <BsPersonWorkspace size={36} />
                           </div>
                           <div>
@@ -70,14 +70,14 @@ function TechnicalExperience() {
                             </p>
                             <p className="text-sm sm:text-base">{experience.institution}</p>
                           </div>
-                          <span className="ml-auto text-violet-300 transition-transform duration-300 group-open:rotate-180" aria-hidden="true">
+                          <span className="ml-auto text-[#d8a99b] transition-transform duration-300 group-open:rotate-180" aria-hidden="true">
                             ▼
                           </span>
                         </div>
                       </summary>
                       <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 group-open:grid-rows-[1fr]">
                         <div className="min-h-0 overflow-hidden">
-                          <ul className="list-disc space-y-1 px-10 pb-4 text-sm text-gray-300"
+                          <ul className="list-disc space-y-1 px-10 pb-4 text-sm text-[#f0e4de]"
                             style={{ listStyleType: "disc", listStylePosition: "outside" }}
                           >
                             {experience.notes.map((note, index) => (

@@ -52,14 +52,14 @@ function ContactForm() {
 
   return (
     <div>
-      <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact me</p>
-      <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
-        <p className="text-sm text-[#d3d8e8]">{"If you have any questions or would like to reach out, please don't hesitate to contact me via email or LinkedIn."}</p>
+      <p className="font-medium mb-5 text-[#e7b6ae] text-xl uppercase">Contact me</p>
+      <div className="max-w-3xl text-[#f8f3ee] rounded-lg border border-[#8a645c] bg-[#4f342f] p-3 lg:p-5">
+        <p className="text-sm text-[#f1e8e3]">{"If you have any questions or would like to reach out, please don't hesitate to contact me via email or LinkedIn."}</p>
         <div className="mt-6 flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Name: </label>
             <input
-              className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="bg-[#5d423d] w-full border rounded-md border-[#8a645c] focus:border-[#e7b6ae] ring-0 outline-0 transition-all duration-300 px-3 py-2 text-[#f8f3ee]"
               type="text"
               maxLength="100"
               required={true}
@@ -72,7 +72,7 @@ function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Email: </label>
             <input
-              className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="bg-[#5d423d] w-full border rounded-md border-[#8a645c] focus:border-[#e7b6ae] ring-0 outline-0 transition-all duration-300 px-3 py-2 text-[#f8f3ee]"
               type="email"
               maxLength="100"
               required={true}
@@ -89,7 +89,7 @@ function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Message: </label>
             <textarea
-              className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="bg-[#5d423d] w-full border rounded-md border-[#8a645c] focus:border-[#e7b6ae] ring-0 outline-0 transition-all duration-300 px-3 py-2 text-[#f8f3ee]"
               maxLength="500"
               name="message"
               required={true}
@@ -104,7 +104,7 @@ function ContactForm() {
               All fields are required!
             </p>}
             <button
-              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-[#e7b6ae] to-[#8d5d50] px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-[#2b1d1a] no-underline transition-all duration-200 ease-out hover:text-[#2b1d1a] hover:no-underline md:font-semibold"
               role="button"
               onClick={handleSendMail}
               disabled={isLoading}
