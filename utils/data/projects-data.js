@@ -1,13 +1,20 @@
 export const projectsData = [
     {
         id: 1,
+        title: "An Immersive Theatre Experience Warning Against PEDs",
+        duration: "Ongoing",
+        facilitator: "Technological University of the Shannon",
+        notes: "This is my final year project. It is a 3D project made in Unity, integrating VR technology. The intention is to communicate the dangers of PED abuse to vulnerable and stubborn populations by gamifying the message and creating an immersive environment to allow the user to get up close and personal with the health outcomes on 3D models."
+    },
+    {
+        id: 2,
         title: "LLM As A Jury Prototype",
         duration: " February 2026",
         facilitator: "Personal Project/ Liberty IT",
         notes: "This is a prototype that I developed to demonstrate the capabilities of LLM As A Jury framework. The prototype allows users to input information and have an LLM act as a reviewer, providing a verdict based on the information provided. I initially created a courtroom scenario with a guilty/ innocent verdict, and later expanded it to include text and code review. This project was originally developed individually while I was employed at Liberty IT. The version available on my GitHub is a modified version that I developed to demonstrate the capabilities of the framework. At it's highest capability, I programmed this prototype to be able to correct the code it reviewed."
     },
     {
-        id: 2,
+        id: 3,
         title: "HackAthlone Hackaton",
         duration: "October 2025",
         facilitator: "Technological University of the Shannon",
@@ -15,7 +22,7 @@ export const projectsData = [
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Games Fleadh",
         duration: "March 2025",
         facilitator: "Technological University of the Shannon",
